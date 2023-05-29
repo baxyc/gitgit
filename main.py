@@ -2,7 +2,7 @@ import argparse
 import datetime
 import sys
 from notes_manager import Note, NotesManager
-1 
+
 def create_note():
     title = input("Введите заголовок заметки: ")
     content = input("Введите текст заметки: ")
@@ -10,7 +10,7 @@ def create_note():
         print("Заметка успешно создана.")
     else:
         print("Заметка с таким заголовком уже существует.")
-
+123
 def read_notes_list():
     notes_list = notes_manager.get_notes_list()
     if not notes_list:
