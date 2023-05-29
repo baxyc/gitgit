@@ -2,7 +2,7 @@ import argparse
 import datetime
 import sys
 from notes_manager import Note, NotesManager
-
+1 
 def create_note():
     title = input("Введите заголовок заметки: ")
     content = input("Введите текст заметки: ")
